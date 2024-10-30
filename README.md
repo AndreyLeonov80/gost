@@ -52,6 +52,7 @@
 
 Модели и результаты:
 - **trained_model.pkl** (обучена на **ГОСТ 14637-89.pdf** через гиперсегментацию ГОСТа на инфоблоки/таблицы)
+  
   Видео https://cloud.mail.ru/public/jSCk/txkSYpVw7
 
       промт gost/back/py/datasource/infoblocks/promts.txt
