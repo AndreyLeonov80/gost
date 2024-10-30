@@ -75,7 +75,7 @@
       промт gost/back/py/datasource/infoblocks2/gen-llm plk promt.txt
       QA обучающая выборка gost/back/py/datasource/infoblocks2/89-1.json
 
-# Методы улучшения модели MaterialsQAModel
+# Дополнительные методы улучшения модели MaterialsQAModel
 
 ## Методы обработки векторных представлений
 
