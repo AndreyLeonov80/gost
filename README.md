@@ -72,9 +72,12 @@
 - openapi backend api
 - другие
 
-Контакты:
+**Контакты:**
+
 andrey.leonov@bimeister.com
+
 https://t.me/aidialog
 
-О архитекторе и разработчике:
+**О архитекторе и разработчике:**
+
 https://codeboost.ru/about
