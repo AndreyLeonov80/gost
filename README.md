@@ -31,11 +31,12 @@
 	
        логи
        qa_model_20241030_115625.log для модели trained_model.pkl
-       trained_model_promt_template.pkl.log для модели trained_model_promt_template.pkl
+       trained_model_promt_template.pkl.log для модели trained_model_promt_template.pkl (или trained_model_promt_template.pkl)
 
 4. Проверяем модель на copilot gost/back/py/copilot.py
    
        указать путь для pkl модели base_path = 'gost/back/py'
+       указать pkl модель self.model_path = 'trained_model.pkl' (или trained_model_promt_template.pkl)
 
 **Варианты LLM:**
   - api gpt4 https://platform.openai.com/docs/concepts
