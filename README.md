@@ -27,7 +27,9 @@
    
    В gost/back/py/train.py
   
-       указать полный путь с json файлами base_path = 'base_path = '/Users/aiapi/Desktop/prj_omk/omkllm/291024/gost/back/py''
+       указать полный путь с json файлами например
+       base_path = '/Users/aiapi/Desktop/prj_omk/omkllm/291024/gost/back/py'
+   
        указать модель обучения которая сохранится в файл self.model_path = 'trained_model.pkl' (или trained_model_promt_template.pkl)
 
    Запустить gost/back/py/train.py для обучения модели на основе QA данных
@@ -38,7 +40,9 @@
 
 4. Проверяем модель на copilot gost/back/py/copilot.py
    
-       указать полный путь для pkl модели base_path = 'base_path = '/Users/aiapi/Desktop/prj_omk/omkllm/291024/gost/back/py''
+       указать полный путь для pkl модели например
+       base_path = '/Users/aiapi/Desktop/prj_omk/omkllm/291024/gost/back/py'
+   
        указать pkl модель self.model_path = 'trained_model.pkl' (или trained_model_promt_template.pkl)
 
 **Варианты LLM:**
