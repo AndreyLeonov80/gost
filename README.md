@@ -24,7 +24,7 @@
        pip install -r requirements.txt
 
        указать путь с json файлами base_path = 'gost/back/py'
-       указать модель обучения которая сохранится в файл self.model_path = 'trained_model.pkl'
+       указать модель обучения которая сохранится в файл self.model_path = 'trained_model.pkl' (или trained_model_promt_template.pkl)
 
        запуск gost/back/py/train.py для обучения модели на основе QA данных
 	
