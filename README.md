@@ -38,8 +38,8 @@
        указать pkl модель self.model_path = 'trained_model.pkl' (или trained_model_promt_template.pkl)
 
 **Варианты LLM:**
-  - api gpt4 https://platform.openai.com/docs/concepts
-  - api claude https://docs.anthropic.com/en/home
+  - платные api gpt4 https://platform.openai.com/docs/concepts
+  - платные api claude https://docs.anthropic.com/en/home
   - платные c большим выбором моделей без своего GPU https://openrouter.ai
   - локальные LLM например через сервер настроенный в https://lmstudio.ai
   - аренда gpu например https://immers.cloud
