@@ -1,0 +1,20 @@
+name: chat_with_suggestions
+description: A Flutter chat interface with word suggestions from JSON.
+publish_to: 'none' # Убедитесь, что вы не публикуете этот пакет
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_typeahead: ^4.1.1 # Убедитесь, что используете актуальную версию
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
