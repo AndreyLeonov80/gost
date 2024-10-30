@@ -27,7 +27,7 @@
    
    В gost/back/py/train.py
   
-       указать полный путь с json файлами например
+       указать полный путь с json файлами в директории datasource например
        base_path = '/Users/aiapi/Desktop/prj_omk/omkllm/291024/gost/back/py'
    
        указать модель обучения которая сохранится в файл self.model_path = 'trained_model.pkl' (или trained_model_promt_template.pkl)
