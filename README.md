@@ -62,8 +62,8 @@
 
 - **trained_model_promt_template.pkl** (обучена на **ГОСТ 14637-89.pdf** через вариации промта "Какие границы для испытания на временное сопротивление для широкополосного проката, марка стали Ст3сп, толщина проката 20, категория 5 для ГОСТ 14637-89?")
     
-      промт back/py/datasource/infoblocks2/gen-llm plk promt.txt
-      QA обучающая выборка back/py/datasource/infoblocks2/89-1.json
+      промт gost/back/py/datasource/infoblocks2/gen-llm plk promt.txt
+      QA обучающая выборка gost/back/py/datasource/infoblocks2/89-1.json
 
 Алгоритмы/технологии которые есть в запасе и которые можно отдельно обсудить:
 - матчинг вопросов и в целом матчинг терминов
