@@ -55,13 +55,15 @@
 Тюнинг параметров LLM от которых зависити результат - могу описать по запросу.
 
 **Демо-сервер на Flutter:**
+
+Работает на простой модели поиска по готовым QA из директории datasource gost/back/py/datasource
      
 Приложение: https://appomk.frontback.tech
 
 Видео демонстрация: https://cloud.mail.ru/public/K75R/Rc9Jq5pGZ
 
 Модели и результаты:
-- **trained_model.pkl** (обучена на **ГОСТ 14637-89.pdf** через гиперсегментацию ГОСТа на инфоблоки/таблицы)
+- **trained_model.pkl** (обучена на **ГОСТ 14637-89.pdf** через гиперсегментацию ГОСТа на инфоблоки/таблицы и генерацию  QA из директории datasource gost/back/py/datasource)
   
   Видео https://cloud.mail.ru/public/jSCk/txkSYpVw7
 
@@ -70,10 +72,20 @@
        - gost/back/py/datasource/infoblocks
        - gost/back/py/datasource/tables
 
+      демо можно посмотреть в интерактивном режиме подняв
+      copilot gost/back/py/copilot.py
+      с прописанной моделью
+      self.model_path = 'trained_model.pkl'
+
 - **trained_model_promt_template.pkl** (обучена на **ГОСТ 14637-89.pdf** через вариации промта "Какие границы для испытания на временное сопротивление для широкополосного проката, марка стали Ст3сп, толщина проката 20, категория 5 для ГОСТ 14637-89?")
     
       промт gost/back/py/datasource/infoblocks2/gen-llm plk promt.txt
       QA обучающая выборка gost/back/py/datasource/infoblocks2/89-1.json
+
+      демо можно посмотреть в интерактивном режиме подняв
+      copilot gost/back/py/copilot.py
+      с прописанной моделью
+      self.model_path = 'trained_model_promt_template.pkl'
 
 # Дополнительные методы улучшения модели MaterialsQAModel
 
