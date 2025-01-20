@@ -57,8 +57,6 @@
 **Демо-сервер на Flutter:**
 
 Работает на простой модели поиска по готовым QA из директории datasource gost/back/py/datasource
-     
-Приложение: https://appomk.frontback.tech
 
 Видео демонстрация: https://cloud.mail.ru/public/K75R/Rc9Jq5pGZ
 
