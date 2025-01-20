@@ -697,6 +697,12 @@
 - ИИ copilot по ГОСТам для документооборота в структурах сделок
 - openapi backend api
 - другие
+
+**Результат:**
+3е место в хакатоне
+https://habr.com/ru/companies/omk-it/articles/850434/
+https://habr.com/ru/companies/omk-it/posts/860640/
+https://codeboost.ru/aidiscovery
  
 **Контакты:**
 
